@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Car Rental System</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    
+</head>
+<body>
+   <header> 
+    
+    <marquee><h1>Car Rental System</h1></marquee></header>
+    <nav>
+       
+    
+        <a href="#">
+            <select name="Popular Location" id="Popular Location">
+                <option value="#">--Popular Location--</option>
+                <option value="hissar">Hissar</option>
+                <option value="gurugram">Gurugram</option>
+                <option value="Chandigarh">Chandigarh</option>
+              </select>
+        </a>
+        <a href="" target="_blank">Manage Booking</a>
+        <a href="./Meterial/Signin.html" target="_blank">Login</a>
+        <a href="./Meterial/Signin.html" target="_blank">Sign Up</a>
+        
+    </nav>
+    
+<section class="race">
+  <div class="container">
+    <img src="./Meterial/2010.i123.005..car headlights AD composition.jpg" alt="Snow" style="width:100%;">
+    
+    <div class="top-right"><p id="ab">
+      <input type="text" placeholder="Car Model" required><br>
+      <input type="text" placeholder="Pick Up at" required>
+      <input type="date" placeholder="Date" required><br>
+      <input type="text" placeholder="Drop Of at" required>
+      <input type="date" placeholder="Date" required>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="text" placeholder="Email" required><br>
+      <input type="text" placeholder="Phonr Number" required><br>
+      <input type="submit" onclick="abc()"></p>
+
+    </div>
+    
+  </div>
+ 
+
+</section>
+<section>
+    <div class="main">
+        <div class="column">
+          <div class="box" id="1">
+            <img
+              src="https://th.bing.com/th/id/OIP.ATf2ZbpWnQf96w7Mf1wP-gHaEK?w=280&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            />
+            <h1>Fortuner Legender</h1><br><br><br>
+            <p>₹4500/day</p>
+            <br><br><br>
+        
+            <button class="btn">Book Now</button>
+          </div>
+          <div class="box" >
+            <img
+              src="https://th.bing.com/th/id/OIP.9d88xOsXg89EQMgEP2BtwgHaEK?w=303&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt="Reload Image"
+            />
+            <h1>Scorpio S11</h1>
+            <br><br><br>
+            <p>₹4000/day</p><br><br><br>
+             
+            
+           
+            <button class="btn">Book Now</button>
+          </div>
+          <div class="box" >
+            <img
+              src="https://th.bing.com/th/id/OIP.HK3umO0wzfaMj5rwyhSLxgHaEK?w=330&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt="Reload Image"
+            />
+            <h1>Audi A5</h1>
+            <br><br><br>
+            <p>₹6000/day</p><br><br><br>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box" >
+            <img
+              src="https://th.bing.com/th/id/OIP.8QOzX5yyG-vOKz2mm2ITQQHaE_?w=301&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt="Reload Image"
+            />
+            <h1>Mercedes</h1>
+           <br><br><br>
+           <p>₹8000/day</p><br><br><br>
+            <button class="btn">Book Now</button>
+          </div>
+          <div class="box" >
+            <img
+              src="https://th.bing.com/th/id/OIP.I6wdi4jt7NXrnOMfS5Al1QHaEw?w=266&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt="Reload Image"
+            />
+            <h1>Swift</h1>
+            <br><br><br>
+            <p>₹2500/day</p><br><br><br>
+            <button class="btn">Book Now</button>
+          </div>
+          <div class="box" >
+            <img
+              src="https://th.bing.com/th/id/OIP.ugqH-T72QQQvVA92Em74IAHaFS?w=280&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt="Reload Image"
+            />
+            <h1>Creta</h1>
+            <br><br><br>
+            <p>₹3500/day</p>
+            <br><br><br>
+
+             
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+  
+</section>
+<footer class="footer">
+
+  <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title has-before">Our Links</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Home</a>
+        </li>
+
+        <li>
+          <a href="about.html" target="_blank" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Blog</a>
+        </li>
+
+        <li>
+          <a href="mailto:Badalgupta12333@gmail.com" class="footer-link">Contact Us</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title has-before">Contact Us</p>
+        </li>
+
+        <li class="footer-list-item">
+          <div class="icon">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+          </div>
+
+          <address class="address footer-link">
+            LPU, Phagwara, Punjab 144402
+          </address>
+        </li>
+
+        <li class="footer-list-item">
+          <div class="icon">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+          </div>
+
+          <div>
+            <a href="tel:18001213637" class="footer-link">1800-619-916</a>
+
+            <a href="tel:+915552348765" class="footer-link">+91 9992886834</a>
+          </div>
+        </li>
+
+        <li class="footer-list-item">
+          <div class="icon">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+          </div>
+
+          <div>
+            <a href="mailto:Badalgupta12333@gmail.com" class="footer-link">Badalgupta12333@gmail.com</a>
+
+            <a href="mailto:Jagritikumboj9@gmail.com" class="footer-link">Jagritikumboj9@gmail.com</a>
+          </div>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title has-before">Our Newsletter</p>
+        </li>
+
+        <li>
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" aria-label="email" placeholder="Email Address" required
+              class="input-field">
+
+            <button type="submit" class="btn btn-primary" aria-label="Submit">
+              <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+        </li>
+
+        <li>
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/badal.gupta.779857?mibextid=ZbWKwL" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/_mr__cloud_?igshid=YmMyMTA2M2Y=" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://t.snapchat.com/DTW2NGOn" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</footer>
+<!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
+    
+  <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    
+    
+    
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+
+    
+function abc(){
+document.getElementById("ab").innerHTML = "Thank You , Have a nice day.";
+}
+</script>
+    
+    
+</body>
+</html>
+
+
